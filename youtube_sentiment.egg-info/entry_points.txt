@@ -1,0 +1,2 @@
+[console_scripts]
+youtube-sentiment = youtube_sentiment.cli:main

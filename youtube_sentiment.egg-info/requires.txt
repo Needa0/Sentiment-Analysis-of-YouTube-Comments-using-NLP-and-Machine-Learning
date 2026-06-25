@@ -1,0 +1,6 @@
+pandas
+nltk
+langdetect
+matplotlib
+google-api-python-client
+streamlit

@@ -1,0 +1,235 @@
+comment_id,video_id,author,comment,like_count
+c0001,VID_EN,user_en_00,"This video is absolutely amazing, I loved it so much 😍",0
+c0002,VID_EN,user_en_01,"Such a fantastic video, please make more like this 🔥",1
+c0003,VID_EN,user_en_02,"Best video I have ever seen, truly wonderful work 👍",2
+c0004,VID_EN,user_en_03,"Really enjoyed this video, great job and keep it up ❤️",3
+c0005,VID_EN,user_en_10,"This song is absolutely amazing, I loved it so much 🔥",3
+c0006,VID_EN,user_en_11,"Such a fantastic song, please make more like this 👍",4
+c0007,VID_EN,user_en_12,"Best song I have ever seen, truly wonderful work ❤️",5
+c0008,VID_EN,user_en_13,"Really enjoyed this song, great job and keep it up 😀",6
+c0009,VID_EN,user_en_20,"This tutorial is absolutely amazing, I loved it so much 👍",6
+c0010,VID_EN,user_en_21,"Such a fantastic tutorial, please make more like this ❤️",7
+c0011,VID_EN,user_en_22,"Best tutorial I have ever seen, truly wonderful work 😀",8
+c0012,VID_EN,user_en_23,"Really enjoyed this tutorial, great job and keep it up 🎉",9
+c0013,VID_EN,user_en_30,"This movie scene is absolutely amazing, I loved it so much ❤️",9
+c0014,VID_EN,user_en_31,"Such a fantastic movie scene, please make more like this 😀",10
+c0015,VID_EN,user_en_32,"Best movie scene I have ever seen, truly wonderful work 🎉",11
+c0016,VID_EN,user_en_33,"Really enjoyed this movie scene, great job and keep it up 😍",12
+c0017,VID_EN,user_en_40,"This recipe is absolutely amazing, I loved it so much 😀",12
+c0018,VID_EN,user_en_41,"Such a fantastic recipe, please make more like this 🎉",13
+c0019,VID_EN,user_en_42,"Best recipe I have ever seen, truly wonderful work 😍",14
+c0020,VID_EN,user_en_43,"Really enjoyed this recipe, great job and keep it up 🔥",15
+c0021,VID_EN,user_en_50,"This match is absolutely amazing, I loved it so much 🎉",15
+c0022,VID_EN,user_en_51,"Such a fantastic match, please make more like this 😍",16
+c0023,VID_EN,user_en_52,"Best match I have ever seen, truly wonderful work 🔥",0
+c0024,VID_EN,user_en_53,"Really enjoyed this match, great job and keep it up 👍",1
+c0025,VID_EN,user_en_00,This video was terrible and a complete waste of time 😢,0
+c0026,VID_EN,user_en_01,"I really hated this video, very disappointing and boring 😡",1
+c0027,VID_EN,user_en_02,"Worst video ever, the quality is awful 👎",2
+c0028,VID_EN,user_en_03,"This video made me angry, totally useless content 💔",3
+c0029,VID_EN,user_en_10,This song was terrible and a complete waste of time 😡,3
+c0030,VID_EN,user_en_11,"I really hated this song, very disappointing and boring 👎",4
+c0031,VID_EN,user_en_12,"Worst song ever, the quality is awful 💔",5
+c0032,VID_EN,user_en_13,"This song made me angry, totally useless content 😞",6
+c0033,VID_EN,user_en_20,This tutorial was terrible and a complete waste of time 👎,6
+c0034,VID_EN,user_en_21,"I really hated this tutorial, very disappointing and boring 💔",7
+c0035,VID_EN,user_en_22,"Worst tutorial ever, the quality is awful 😞",8
+c0036,VID_EN,user_en_23,"This tutorial made me angry, totally useless content 😠",9
+c0037,VID_EN,user_en_30,This movie scene was terrible and a complete waste of time 💔,9
+c0038,VID_EN,user_en_31,"I really hated this movie scene, very disappointing and boring 😞",10
+c0039,VID_EN,user_en_32,"Worst movie scene ever, the quality is awful 😠",11
+c0040,VID_EN,user_en_33,"This movie scene made me angry, totally useless content 😢",12
+c0041,VID_EN,user_en_40,This recipe was terrible and a complete waste of time 😞,12
+c0042,VID_EN,user_en_41,"I really hated this recipe, very disappointing and boring 😠",13
+c0043,VID_EN,user_en_42,"Worst recipe ever, the quality is awful 😢",14
+c0044,VID_EN,user_en_43,"This recipe made me angry, totally useless content 😡",15
+c0045,VID_EN,user_en_50,This match was terrible and a complete waste of time 😠,15
+c0046,VID_EN,user_en_51,"I really hated this match, very disappointing and boring 😢",16
+c0047,VID_EN,user_en_52,"Worst match ever, the quality is awful 😡",0
+c0048,VID_EN,user_en_53,"This match made me angry, totally useless content 👎",1
+c0049,VID_EN,user_en_00,This is a video about the topic,0
+c0050,VID_EN,user_en_01,"Watched the video today, it was okay overall 🙂",1
+c0051,VID_EN,user_en_02,"The video is average, nothing special to mention 😯",2
+c0052,VID_EN,user_en_03,Here is another video on the channel,3
+c0053,VID_EN,user_en_10,This is a song about the topic 🙂,3
+c0054,VID_EN,user_en_11,"Watched the song today, it was okay overall 😯",4
+c0055,VID_EN,user_en_12,"The song is average, nothing special to mention",5
+c0056,VID_EN,user_en_13,Here is another song on the channel,6
+c0057,VID_EN,user_en_20,This is a tutorial about the topic 😯,6
+c0058,VID_EN,user_en_21,"Watched the tutorial today, it was okay overall",7
+c0059,VID_EN,user_en_22,"The tutorial is average, nothing special to mention",8
+c0060,VID_EN,user_en_23,Here is another tutorial on the channel 🙂,9
+c0061,VID_EN,user_en_30,This is a movie scene about the topic,9
+c0062,VID_EN,user_en_31,"Watched the movie scene today, it was okay overall",10
+c0063,VID_EN,user_en_32,"The movie scene is average, nothing special to mention 🙂",11
+c0064,VID_EN,user_en_33,Here is another movie scene on the channel 😯,12
+c0065,VID_EN,user_en_40,This is a recipe about the topic,12
+c0066,VID_EN,user_en_41,"Watched the recipe today, it was okay overall 🙂",13
+c0067,VID_EN,user_en_42,"The recipe is average, nothing special to mention 😯",14
+c0068,VID_EN,user_en_43,Here is another recipe on the channel,15
+c0069,VID_EN,user_en_50,This is a match about the topic 🙂,15
+c0070,VID_EN,user_en_51,"Watched the match today, it was okay overall 😯",16
+c0071,VID_EN,user_en_52,"The match is average, nothing special to mention",0
+c0072,VID_EN,user_en_53,Here is another match on the channel,1
+c0073,VID_HI,user_hi_00,यह वीडियो बहुत शानदार है मुझे बहुत पसंद आया 😍,0
+c0074,VID_HI,user_hi_01,बहुत बढ़िया वीडियो ऐसे और बनाओ 🔥,1
+c0075,VID_HI,user_hi_02,सबसे अच्छा वीडियो जो मैंने देखा है शानदार काम 👍,2
+c0076,VID_HI,user_hi_10,यह गाना बहुत शानदार है मुझे बहुत पसंद आया 🔥,3
+c0077,VID_HI,user_hi_11,बहुत बढ़िया गाना ऐसे और बनाओ 👍,4
+c0078,VID_HI,user_hi_12,सबसे अच्छा गाना जो मैंने देखा है शानदार काम ❤️,5
+c0079,VID_HI,user_hi_20,यह ट्यूटोरियल बहुत शानदार है मुझे बहुत पसंद आया 👍,6
+c0080,VID_HI,user_hi_21,बहुत बढ़िया ट्यूटोरियल ऐसे और बनाओ ❤️,7
+c0081,VID_HI,user_hi_22,सबसे अच्छा ट्यूटोरियल जो मैंने देखा है शानदार काम 😀,8
+c0082,VID_HI,user_hi_30,यह फिल्म बहुत शानदार है मुझे बहुत पसंद आया ❤️,9
+c0083,VID_HI,user_hi_31,बहुत बढ़िया फिल्म ऐसे और बनाओ 😀,10
+c0084,VID_HI,user_hi_32,सबसे अच्छा फिल्म जो मैंने देखा है शानदार काम 🎉,11
+c0085,VID_HI,user_hi_40,यह रेसिपी बहुत शानदार है मुझे बहुत पसंद आया 😀,12
+c0086,VID_HI,user_hi_41,बहुत बढ़िया रेसिपी ऐसे और बनाओ 🎉,13
+c0087,VID_HI,user_hi_42,सबसे अच्छा रेसिपी जो मैंने देखा है शानदार काम 😍,14
+c0088,VID_HI,user_hi_50,यह मैच बहुत शानदार है मुझे बहुत पसंद आया 🎉,15
+c0089,VID_HI,user_hi_51,बहुत बढ़िया मैच ऐसे और बनाओ 😍,16
+c0090,VID_HI,user_hi_52,सबसे अच्छा मैच जो मैंने देखा है शानदार काम 🔥,0
+c0091,VID_HI,user_hi_00,यह वीडियो बहुत खराब था समय की बर्बादी 😢,0
+c0092,VID_HI,user_hi_01,मुझे यह वीडियो बिल्कुल पसंद नहीं आया बहुत बुरा 😡,1
+c0093,VID_HI,user_hi_02,सबसे खराब वीडियो गुणवत्ता बहुत खराब है 👎,2
+c0094,VID_HI,user_hi_10,यह गाना बहुत खराब था समय की बर्बादी 😡,3
+c0095,VID_HI,user_hi_11,मुझे यह गाना बिल्कुल पसंद नहीं आया बहुत बुरा 👎,4
+c0096,VID_HI,user_hi_12,सबसे खराब गाना गुणवत्ता बहुत खराब है 💔,5
+c0097,VID_HI,user_hi_20,यह ट्यूटोरियल बहुत खराब था समय की बर्बादी 👎,6
+c0098,VID_HI,user_hi_21,मुझे यह ट्यूटोरियल बिल्कुल पसंद नहीं आया बहुत बुरा 💔,7
+c0099,VID_HI,user_hi_22,सबसे खराब ट्यूटोरियल गुणवत्ता बहुत खराब है 😞,8
+c0100,VID_HI,user_hi_30,यह फिल्म बहुत खराब था समय की बर्बादी 💔,9
+c0101,VID_HI,user_hi_31,मुझे यह फिल्म बिल्कुल पसंद नहीं आया बहुत बुरा 😞,10
+c0102,VID_HI,user_hi_32,सबसे खराब फिल्म गुणवत्ता बहुत खराब है 😠,11
+c0103,VID_HI,user_hi_40,यह रेसिपी बहुत खराब था समय की बर्बादी 😞,12
+c0104,VID_HI,user_hi_41,मुझे यह रेसिपी बिल्कुल पसंद नहीं आया बहुत बुरा 😠,13
+c0105,VID_HI,user_hi_42,सबसे खराब रेसिपी गुणवत्ता बहुत खराब है 😢,14
+c0106,VID_HI,user_hi_50,यह मैच बहुत खराब था समय की बर्बादी 😠,15
+c0107,VID_HI,user_hi_51,मुझे यह मैच बिल्कुल पसंद नहीं आया बहुत बुरा 😢,16
+c0108,VID_HI,user_hi_52,सबसे खराब मैच गुणवत्ता बहुत खराब है 😡,0
+c0109,VID_HI,user_hi_00,यह एक वीडियो है,0
+c0110,VID_HI,user_hi_01,आज वीडियो देखा ठीक ठाक था 🙂,1
+c0111,VID_HI,user_hi_02,वीडियो औसत है कुछ खास नहीं 😯,2
+c0112,VID_HI,user_hi_10,यह एक गाना है 🙂,3
+c0113,VID_HI,user_hi_11,आज गाना देखा ठीक ठाक था 😯,4
+c0114,VID_HI,user_hi_12,गाना औसत है कुछ खास नहीं,5
+c0115,VID_HI,user_hi_20,यह एक ट्यूटोरियल है 😯,6
+c0116,VID_HI,user_hi_21,आज ट्यूटोरियल देखा ठीक ठाक था,7
+c0117,VID_HI,user_hi_22,ट्यूटोरियल औसत है कुछ खास नहीं,8
+c0118,VID_HI,user_hi_30,यह एक फिल्म है,9
+c0119,VID_HI,user_hi_31,आज फिल्म देखा ठीक ठाक था,10
+c0120,VID_HI,user_hi_32,फिल्म औसत है कुछ खास नहीं 🙂,11
+c0121,VID_HI,user_hi_40,यह एक रेसिपी है,12
+c0122,VID_HI,user_hi_41,आज रेसिपी देखा ठीक ठाक था 🙂,13
+c0123,VID_HI,user_hi_42,रेसिपी औसत है कुछ खास नहीं 😯,14
+c0124,VID_HI,user_hi_50,यह एक मैच है 🙂,15
+c0125,VID_HI,user_hi_51,आज मैच देखा ठीक ठाक था 😯,16
+c0126,VID_HI,user_hi_52,मैच औसत है कुछ खास नहीं,0
+c0127,VID_BE,user_be_00,এই ভিডিও টা দারুণ আমি খুব ভালোবেসেছি 😍,0
+c0128,VID_BE,user_be_01,খুব সুন্দর ভিডিও আরো বানাও 🔥,1
+c0129,VID_BE,user_be_02,সেরা ভিডিও যা দেখেছি অসাধারণ কাজ 👍,2
+c0130,VID_BE,user_be_10,এই গান টা দারুণ আমি খুব ভালোবেসেছি 🔥,3
+c0131,VID_BE,user_be_11,খুব সুন্দর গান আরো বানাও 👍,4
+c0132,VID_BE,user_be_12,সেরা গান যা দেখেছি অসাধারণ কাজ ❤️,5
+c0133,VID_BE,user_be_20,এই টিউটোরিয়াল টা দারুণ আমি খুব ভালোবেসেছি 👍,6
+c0134,VID_BE,user_be_21,খুব সুন্দর টিউটোরিয়াল আরো বানাও ❤️,7
+c0135,VID_BE,user_be_22,সেরা টিউটোরিয়াল যা দেখেছি অসাধারণ কাজ 😀,8
+c0136,VID_BE,user_be_30,এই সিনেমা টা দারুণ আমি খুব ভালোবেসেছি ❤️,9
+c0137,VID_BE,user_be_31,খুব সুন্দর সিনেমা আরো বানাও 😀,10
+c0138,VID_BE,user_be_32,সেরা সিনেমা যা দেখেছি অসাধারণ কাজ 🎉,11
+c0139,VID_BE,user_be_40,এই রেসিপি টা দারুণ আমি খুব ভালোবেসেছি 😀,12
+c0140,VID_BE,user_be_41,খুব সুন্দর রেসিপি আরো বানাও 🎉,13
+c0141,VID_BE,user_be_42,সেরা রেসিপি যা দেখেছি অসাধারণ কাজ 😍,14
+c0142,VID_BE,user_be_50,এই ম্যাচ টা দারুণ আমি খুব ভালোবেসেছি 🎉,15
+c0143,VID_BE,user_be_51,খুব সুন্দর ম্যাচ আরো বানাও 😍,16
+c0144,VID_BE,user_be_52,সেরা ম্যাচ যা দেখেছি অসাধারণ কাজ 🔥,0
+c0145,VID_BE,user_be_00,এই ভিডিও টা খুব বাজে সময় নষ্ট 😢,0
+c0146,VID_BE,user_be_01,আমি এই ভিডিও টা একদম পছন্দ করিনি খুব খারাপ 😡,1
+c0147,VID_BE,user_be_02,সবচেয়ে বাজে ভিডিও মান খুব খারাপ 👎,2
+c0148,VID_BE,user_be_10,এই গান টা খুব বাজে সময় নষ্ট 😡,3
+c0149,VID_BE,user_be_11,আমি এই গান টা একদম পছন্দ করিনি খুব খারাপ 👎,4
+c0150,VID_BE,user_be_12,সবচেয়ে বাজে গান মান খুব খারাপ 💔,5
+c0151,VID_BE,user_be_20,এই টিউটোরিয়াল টা খুব বাজে সময় নষ্ট 👎,6
+c0152,VID_BE,user_be_21,আমি এই টিউটোরিয়াল টা একদম পছন্দ করিনি খুব খারাপ 💔,7
+c0153,VID_BE,user_be_22,সবচেয়ে বাজে টিউটোরিয়াল মান খুব খারাপ 😞,8
+c0154,VID_BE,user_be_30,এই সিনেমা টা খুব বাজে সময় নষ্ট 💔,9
+c0155,VID_BE,user_be_31,আমি এই সিনেমা টা একদম পছন্দ করিনি খুব খারাপ 😞,10
+c0156,VID_BE,user_be_32,সবচেয়ে বাজে সিনেমা মান খুব খারাপ 😠,11
+c0157,VID_BE,user_be_40,এই রেসিপি টা খুব বাজে সময় নষ্ট 😞,12
+c0158,VID_BE,user_be_41,আমি এই রেসিপি টা একদম পছন্দ করিনি খুব খারাপ 😠,13
+c0159,VID_BE,user_be_42,সবচেয়ে বাজে রেসিপি মান খুব খারাপ 😢,14
+c0160,VID_BE,user_be_50,এই ম্যাচ টা খুব বাজে সময় নষ্ট 😠,15
+c0161,VID_BE,user_be_51,আমি এই ম্যাচ টা একদম পছন্দ করিনি খুব খারাপ 😢,16
+c0162,VID_BE,user_be_52,সবচেয়ে বাজে ম্যাচ মান খুব খারাপ 😡,0
+c0163,VID_BE,user_be_00,এটা একটা ভিডিও,0
+c0164,VID_BE,user_be_01,আজ ভিডিও দেখলাম মোটামুটি ছিল 🙂,1
+c0165,VID_BE,user_be_02,ভিডিও টা সাধারণ বিশেষ কিছু নয় 😯,2
+c0166,VID_BE,user_be_10,এটা একটা গান 🙂,3
+c0167,VID_BE,user_be_11,আজ গান দেখলাম মোটামুটি ছিল 😯,4
+c0168,VID_BE,user_be_12,গান টা সাধারণ বিশেষ কিছু নয়,5
+c0169,VID_BE,user_be_20,এটা একটা টিউটোরিয়াল 😯,6
+c0170,VID_BE,user_be_21,আজ টিউটোরিয়াল দেখলাম মোটামুটি ছিল,7
+c0171,VID_BE,user_be_22,টিউটোরিয়াল টা সাধারণ বিশেষ কিছু নয়,8
+c0172,VID_BE,user_be_30,এটা একটা সিনেমা,9
+c0173,VID_BE,user_be_31,আজ সিনেমা দেখলাম মোটামুটি ছিল,10
+c0174,VID_BE,user_be_32,সিনেমা টা সাধারণ বিশেষ কিছু নয় 🙂,11
+c0175,VID_BE,user_be_40,এটা একটা রেসিপি,12
+c0176,VID_BE,user_be_41,আজ রেসিপি দেখলাম মোটামুটি ছিল 🙂,13
+c0177,VID_BE,user_be_42,রেসিপি টা সাধারণ বিশেষ কিছু নয় 😯,14
+c0178,VID_BE,user_be_50,এটা একটা ম্যাচ 🙂,15
+c0179,VID_BE,user_be_51,আজ ম্যাচ দেখলাম মোটামুটি ছিল 😯,16
+c0180,VID_BE,user_be_52,ম্যাচ টা সাধারণ বিশেষ কিছু নয়,0
+c0181,VID_CO,user_co_00,This video bahut accha tha मस्त I loved it 😍,0
+c0182,VID_CO,user_co_01,Yaar yeh video is superb एकदम zabardast 🔥,1
+c0183,VID_CO,user_co_02,Ei video ta darun দারুণ really enjoyed it 👍,2
+c0184,VID_CO,user_co_10,This song bahut accha tha मस्त I loved it 🔥,3
+c0185,VID_CO,user_co_11,Yaar yeh song is superb एकदम zabardast 👍,4
+c0186,VID_CO,user_co_12,Ei song ta darun দারুণ really enjoyed it ❤️,5
+c0187,VID_CO,user_co_20,This tutorial bahut accha tha मस्त I loved it 👍,6
+c0188,VID_CO,user_co_21,Yaar yeh tutorial is superb एकदम zabardast ❤️,7
+c0189,VID_CO,user_co_22,Ei tutorial ta darun দারুণ really enjoyed it 😀,8
+c0190,VID_CO,user_co_30,This movie scene bahut accha tha मस्त I loved it ❤️,9
+c0191,VID_CO,user_co_31,Yaar yeh movie scene is superb एकदम zabardast 😀,10
+c0192,VID_CO,user_co_32,Ei movie scene ta darun দারুণ really enjoyed it 🎉,11
+c0193,VID_CO,user_co_40,This recipe bahut accha tha मस्त I loved it 😀,12
+c0194,VID_CO,user_co_41,Yaar yeh recipe is superb एकदम zabardast 🎉,13
+c0195,VID_CO,user_co_42,Ei recipe ta darun দারুণ really enjoyed it 😍,14
+c0196,VID_CO,user_co_50,This match bahut accha tha मस्त I loved it 🎉,15
+c0197,VID_CO,user_co_51,Yaar yeh match is superb एकदम zabardast 😍,16
+c0198,VID_CO,user_co_52,Ei match ta darun দারুণ really enjoyed it 🔥,0
+c0199,VID_CO,user_co_00,This video bilkul bekaar tha बहुत waste of time 😢,0
+c0200,VID_CO,user_co_01,Yeh video was so bad मुझे pasand nahi aaya 😡,1
+c0201,VID_CO,user_co_02,Ei video ta khub baje খারাপ totally disappointing 👎,2
+c0202,VID_CO,user_co_10,This song bilkul bekaar tha बहुत waste of time 😡,3
+c0203,VID_CO,user_co_11,Yeh song was so bad मुझे pasand nahi aaya 👎,4
+c0204,VID_CO,user_co_12,Ei song ta khub baje খারাপ totally disappointing 💔,5
+c0205,VID_CO,user_co_20,This tutorial bilkul bekaar tha बहुत waste of time 👎,6
+c0206,VID_CO,user_co_21,Yeh tutorial was so bad मुझे pasand nahi aaya 💔,7
+c0207,VID_CO,user_co_22,Ei tutorial ta khub baje খারাপ totally disappointing 😞,8
+c0208,VID_CO,user_co_30,This movie scene bilkul bekaar tha बहुत waste of time 💔,9
+c0209,VID_CO,user_co_31,Yeh movie scene was so bad मुझे pasand nahi aaya 😞,10
+c0210,VID_CO,user_co_32,Ei movie scene ta khub baje খারাপ totally disappointing 😠,11
+c0211,VID_CO,user_co_40,This recipe bilkul bekaar tha बहुत waste of time 😞,12
+c0212,VID_CO,user_co_41,Yeh recipe was so bad मुझे pasand nahi aaya 😠,13
+c0213,VID_CO,user_co_42,Ei recipe ta khub baje খারাপ totally disappointing 😢,14
+c0214,VID_CO,user_co_50,This match bilkul bekaar tha बहुत waste of time 😠,15
+c0215,VID_CO,user_co_51,Yeh match was so bad मुझे pasand nahi aaya 😢,16
+c0216,VID_CO,user_co_52,Ei match ta khub baje খারাপ totally disappointing 😡,0
+c0217,VID_CO,user_co_00,Yeh ek video hai ठीक about the topic,0
+c0218,VID_CO,user_co_01,Aaj video dekha মোটামুটি it was okay 🙂,1
+c0219,VID_CO,user_co_02,Ei video ta average সাধারণ nothing special 😯,2
+c0220,VID_CO,user_co_10,Yeh ek song hai ठीक about the topic 🙂,3
+c0221,VID_CO,user_co_11,Aaj song dekha মোটামুটি it was okay 😯,4
+c0222,VID_CO,user_co_12,Ei song ta average সাধারণ nothing special,5
+c0223,VID_CO,user_co_20,Yeh ek tutorial hai ठीक about the topic 😯,6
+c0224,VID_CO,user_co_21,Aaj tutorial dekha মোটামুটি it was okay,7
+c0225,VID_CO,user_co_22,Ei tutorial ta average সাধারণ nothing special,8
+c0226,VID_CO,user_co_30,Yeh ek movie scene hai ठीक about the topic,9
+c0227,VID_CO,user_co_31,Aaj movie scene dekha মোটামুটি it was okay,10
+c0228,VID_CO,user_co_32,Ei movie scene ta average সাধারণ nothing special 🙂,11
+c0229,VID_CO,user_co_40,Yeh ek recipe hai ठीक about the topic,12
+c0230,VID_CO,user_co_41,Aaj recipe dekha মোটামুটি it was okay 🙂,13
+c0231,VID_CO,user_co_42,Ei recipe ta average সাধারণ nothing special 😯,14
+c0232,VID_CO,user_co_50,Yeh ek match hai ठीक about the topic 🙂,15
+c0233,VID_CO,user_co_51,Aaj match dekha মোটামুটি it was okay 😯,16
+c0234,VID_CO,user_co_52,Ei match ta average সাধারণ nothing special,0

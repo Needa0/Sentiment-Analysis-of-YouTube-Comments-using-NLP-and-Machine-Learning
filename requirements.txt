@@ -1,0 +1,21 @@
+# Core data handling (collection, cleaning, CSV storage/export)
+pandas==2.2.2
+
+# NLP preprocessing (tokenisation, stop-words, stemming, lemmatisation)
+nltk==3.8.1
+
+# Language detection and classification
+langdetect==1.0.9
+
+# Basic visualisations (language distribution charts)
+matplotlib==3.8.4
+
+# YouTube Data API v3 collection
+google-api-python-client==2.130.0
+
+# Dashboard application
+streamlit==1.34.0
+
+# Testing and lint
+pytest==8.2.0
+flake8==7.0.0

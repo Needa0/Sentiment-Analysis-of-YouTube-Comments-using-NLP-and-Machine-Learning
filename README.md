@@ -1,0 +1,127 @@
+# YouTube Comment Language Lab
+
+A multilingual application for **collecting, preprocessing and classifying the
+language** of YouTube comments. It collects comments via the YouTube Data API
+v3 (or an uploaded CSV), cleans and normalises the text, applies NLP
+preprocessing (tokenisation, stop-word removal, stemming, lemmatisation), and
+detects/classifies each comment as English, Hindi, Bengali or Code-Mixed. Results
+are presented through a modern dashboard with language statistics, charts,
+filterable tables, process logs and a cleaned-dataset export.
+
+## Features
+
+- **YouTube data collection** — fetch comments by video ID or channel via the
+  YouTube Data API v3.
+- **CSV upload** — analyse an existing comments CSV.
+- **Dataset storage** — collected comments stored in structured CSV format.
+- **Data cleaning & text normalization** — remove URLs, HTML, mentions,
+  punctuation, special characters, symbols and emojis; lowercase; collapse
+  whitespace; drop duplicate/empty rows (multilingual letters preserved).
+- **NLP preprocessing** — tokenisation, stop-word removal, lemmatisation and
+  stemming comparison (NLTK).
+- **Language detection & classification** — English, Hindi, Bengali, Code-Mixed and Numeric.
+- **Language statistics** — per-language counts and percentages.
+- **Basic visualizations** — language distribution bar and donut charts.
+- **Process logs** — step-by-step record of each pipeline stage.
+- **Export cleaned dataset** — download the cleaned, language-annotated CSV.
+- **Modern UI** — premium dashboard with light/dark modes, responsive layout,
+  styled tables, charts and filters.
+
+## Architecture (modular pipeline)
+
+```
+YouTube Data API v3 / CSV Upload  ─►  Cleaning & Normalisation  ─►  NLP Preprocessing  ─►  Language Detection
+        (data_collection)               (cleaning)                   (preprocessing)        (language_detection)
+                                                                                                   │
+                                                                                                   ▼
+                                              Language Statistics + Logs + Export  ◄───────  (pipeline)
+                                                          │
+                                                          ▼
+                                       Basic Visualisations (visualization)
+                              orchestrated by  pipeline.py  →  CLI (cli.py) / Dashboard (app.py)
+```
+
+| Stage | Module | Source File |
+|-------|--------|-------------|
+| Data collection / CSV storage | `YouTubeCommentCollector`, `save/load_comments_csv` | `youtube_sentiment/data_collection.py` |
+| Cleaning & normalization | `clean_text`, `clean_dataframe` | `youtube_sentiment/cleaning.py` |
+| NLP preprocessing | `NLPPreprocessor` | `youtube_sentiment/preprocessing.py` |
+| Language detection & classification | `LanguageDetector` | `youtube_sentiment/language_detection.py` |
+| Statistics / logs / export / orchestration | `PreprocessingPipeline` | `youtube_sentiment/pipeline.py` |
+| Basic visualizations | `bar_chart`, `pie_chart` | `youtube_sentiment/visualization.py` |
+| Command-line interface | `collect`, `process` | `youtube_sentiment/cli.py` |
+| Dashboard | Streamlit app | `app.py` |
+
+## Installation
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+# one-time NLTK corpora download (stopwords, wordnet)
+python -c "from youtube_sentiment.preprocessing import ensure_nltk_data; ensure_nltk_data()"
+```
+
+## Usage
+
+### 1. Process the bundled multilingual sample dataset (no API key needed)
+
+```bash
+python -m youtube_sentiment.cli process \
+    --csv data/sample_comments.csv \
+    --output-dir outputs \
+    --export outputs/cleaned.csv
+```
+
+Prints language statistics and logs, exports the cleaned dataset, and writes the
+language charts + `report.json` to `outputs/`.
+
+### 2. Collect live comments (requires a YouTube Data API key)
+
+```bash
+export YOUTUBE_API_KEY=...   # YouTube Data API v3 key
+python -m youtube_sentiment.cli collect --video-id <VIDEO_ID> --csv comments.csv
+python -m youtube_sentiment.cli process --csv comments.csv --output-dir outputs
+```
+
+### 3. Dashboard
+
+```bash
+streamlit run app.py
+```
+
+Use the sidebar to switch light/dark mode, pick a data source (sample dataset,
+CSV upload, or live YouTube), toggle stemming, and run the pipeline. Explore the
+Overview (charts + statistics), Comments (filter by language / search text,
+export CSV) and Logs tabs.
+
+## Project layout
+
+```
+youtube_sentiment/      # core package
+  data_collection.py    # YouTube Data API v3 collection + CSV storage
+  cleaning.py           # cleaning & text normalization
+  preprocessing.py      # NLP preprocessing (NLTK)
+  language_detection.py # language detection & classification
+  pipeline.py           # orchestration, statistics, logs, export
+  visualization.py      # basic language charts (theme-aware)
+  cli.py                # command-line interface
+app.py                  # Streamlit dashboard
+data/                   # sample dataset + generator
+tests/                  # unit + end-to-end tests
+```
+
+## Testing
+
+```bash
+python -m pytest
+flake8 youtube_sentiment app.py data/generate_sample_dataset.py tests
+```
+
+## Notes
+
+- The bundled `data/sample_comments.csv` (produced by running
+  `data/generate_sample_dataset.py`) is a multilingual dataset that lets the full
+  pipeline run and be verified without a live YouTube API key.
+- A YouTube Data API v3 key (`YOUTUBE_API_KEY`) is only required for live
+  collection; all other functionality is available offline.

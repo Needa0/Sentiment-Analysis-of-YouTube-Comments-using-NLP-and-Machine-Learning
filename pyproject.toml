@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-sentiment"
+version = "2.0.0"
+description = "Multilingual YouTube comment collection, preprocessing and language classification."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Tania Imam" }]
+dependencies = [
+    "pandas",
+    "nltk",
+    "langdetect",
+    "matplotlib",
+    "google-api-python-client",
+    "streamlit",
+]
+
+[project.scripts]
+youtube-sentiment = "youtube_sentiment.cli:main"
+
+[tool.setuptools]
+packages = ["youtube_sentiment"]
